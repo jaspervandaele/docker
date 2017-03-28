@@ -3,7 +3,7 @@
 # based on
 # GIBAHOLMS DOCKERFILES PROJECT
 # -----------------------------------------
-# This is the Dockerfile for a default installation for Oracle WebLogic Server 11g (10.3.5) Generic Distribution
+# This is the Dockerfile for a default installation for Oracle WebLogic Server 11g (10.3.5) Generic Distribution with JDK 6u45
 # 
 # IMPORTANT
 # -----------------------------------------
@@ -12,7 +12,7 @@
 #
 # REQUIRED FILES TO BUILD THIS IMAGE
 # -----------------------------------------
-# (1) wls1035_generic.jar (Oracle WebLogic Server 10.3.6 Generic Installer)
+# (1) wls1035_generic.jar (Oracle WebLogic Server 10.3.5 Generic Installer)
 #
 # (2) jdk-6u45-linux-x64-rpm.bin (Oracle Java SE Development Kit 6 for Linux x64 RPM)
 #
@@ -20,7 +20,7 @@
 # -----------------------------------------
 # Put all downloaded files in the same directory as this Dockerfile
 # Run: 
-#      $ sudo docker build -t gibaholms/weblogic:10.3.6 . 
+#      $ sudo docker build -t jaspervandaele/weblogic:10.3.5 . 
 #
 # -----------------------------------------
 # Pull base image
